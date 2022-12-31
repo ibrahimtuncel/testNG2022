@@ -15,4 +15,12 @@ public class LoginPage {
     public WebElement password;
     @FindBy(id="btnSubmit")
     public WebElement loginButton;
+    @FindBy(id="divMessageResult")
+    public WebElement errorMessage;
+
+    @FindBy(id="details-button")
+    public WebElement advancedLink;
+
+    @FindBy(id="proceed-link")
+    public WebElement proceedLink;
 }
