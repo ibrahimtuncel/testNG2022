@@ -31,6 +31,8 @@ public class HotelRoomPage {
     public WebElement price;
     @FindBy(id="data-id")
     public WebElement price600;
+    @FindBy(xpath = "//li[@data-id='700']")
+    public WebElement price700;
 
     @FindBy(id="IDGroupRoomType")
     public WebElement roomTypeDropdown;
@@ -53,8 +55,7 @@ public class HotelRoomPage {
     @FindBy(xpath="//button[@data-bb-handler='ok']")
     public WebElement okButton;
 
-    @FindBy(xpath = "//li[@data-id='700']")
-    public WebElement price700;
+
 
 
 }

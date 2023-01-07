@@ -12,24 +12,37 @@ public class Day10_C8_PositiveLoginTest {
     @Test
     public void positiveLoginTest() throws InterruptedException {
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
-        Thread.sleep(4000);
-
+        //1. create page objects-MainPage, LoginPage - DONE
+        /*2. create test class
+        -Create Page Objects
+            -create MainPage object
+            -calling the page elements using that object
+        */
         MainPage mainPage=new MainPage();
         mainPage.advancedLink.click();
         mainPage.proceedLink.click();
-        mainPage.mainPageLoginLink.click();
         Thread.sleep(4000);
-
-        LoginPage loginPage=new LoginPage();
+        //At this point we are on the LoginPage
+        //Create LoginPage object
+        LoginPage loginPage = new LoginPage();
+//        loginPage.username.sendKeys("manager");
+//        loginPage.password.sendKeys("Manager1!");
+        //or
         loginPage.userName.sendKeys(ConfigReader.getProperty("manager_username"));
         loginPage.password.sendKeys(ConfigReader.getProperty("manager_password"));
+
         loginPage.loginButton.click();
 
-        DefaultPage defaultPage=new DefaultPage();
-        Boolean sonuc=defaultPage.addUserButton.isDisplayed();
-        Assert.assertTrue(sonuc);
+        //We need to automate the login success
+        //We choose a CORE ELEMENT on the page
+        //WE will use add user button to verify the login page
+        //At this point, we are on the Default Page
 
-        //Driver.closeDriver();
+        DefaultPage defaultPage = new DefaultPage();
+        boolean isLoggeedIn = defaultPage.addUserButton.isDisplayed();
+        Assert.assertTrue(isLoggeedIn);
+
+
     }
 
 }

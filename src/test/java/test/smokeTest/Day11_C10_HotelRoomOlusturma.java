@@ -4,6 +4,7 @@ import com.github.javafaker.Faker;
 import com.pages.DefaultPage;
 import com.pages.HotelRoomPage;
 import com.pages.LoginPage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -59,7 +60,7 @@ public class Day11_C10_HotelRoomOlusturma {
         hotelRoomPage.price.sendKeys("500");
         //2.yol
         //Actions actions=new Actions(Driver.getDriver());
-        //actions.dragAndDrop(hotelRoomPage.price600,hotelRoomPage.price).perform();
+        //actions.dragAndDrop(hotelRoomPage.price700,hotelRoomPage.price).perform();
         //roomType sec
         Select roomType=new Select(hotelRoomPage.roomTypeDropdown);
         roomType.selectByVisibleText("Queen");
@@ -72,19 +73,16 @@ public class Day11_C10_HotelRoomOlusturma {
         //saved button-kayıt
         hotelRoomPage.saveButton.click();
         Thread.sleep(4000);
-        //WebDriverWait wait=new WebDriverWait(Driver.getDriver(),5);
-        //WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated())
+        // wait=new WebDriverWait(Driver.getDriver(),java.time.5);
+        //WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='bootbox-body']")));
         //reserve olustu mu test et
         System.out.println(hotelRoomPage.popupMessage.getText());
         Assert.assertTrue(hotelRoomPage.popupMessage.getText().contains("HotelRoom was inserted successfully"));
 
         hotelRoomPage.okButton.click();
+        Thread.sleep(2000);
 
         Driver.closeDriver();
-
-
-
-
 
     }
 }

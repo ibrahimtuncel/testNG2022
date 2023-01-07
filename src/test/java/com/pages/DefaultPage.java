@@ -18,8 +18,12 @@ public class DefaultPage {
     @FindBy(partialLinkText = "Hotel Rooms")
     public WebElement hotelRoomsTab;
 
-    @FindBy(xpath = "(//span)[contains(@class,'username')]")
-    public WebElement userID;
+    //@FindBy(linkText = "Room reservations")
+    @FindBy(xpath = "(//i[@class='icon-calendar'])[4]")
+    public WebElement roomReservation;
+
+    //@FindBy(xpath = "(//span)[contains(@class,'username')]")
+    //public WebElement userID;
 
 
 
