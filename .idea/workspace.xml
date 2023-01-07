@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af282715-c94d-4592-9c64-e67ad15f8ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day12_C12_ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C13_WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/ReservationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/smoketestdata (1).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day12_C11_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/smokeTest/ReservationRoomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C17_DataProvider2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C18_DataProvider3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javascriptexecutor/Day_14_C15_JSUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/DefaultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HotelRoomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HotelRoomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day10_C8_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day10_C8_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day11_C10_HotelRoomOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day11_C10_HotelRoomOlusturma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/smokeTest/denemeNegativeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +50,18 @@
       <recent name="C:\Users\lenovo\eclipse-workspace\testNG2022\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day13_C13_WriteExcel.writeExcel">
-    <configuration name="Day12_C11_WebTables.pd" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day14_C18_DataProvider3.managerLoginTest">
+    <configuration name="Day14_C16_DataProvider1.managerInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.dataprovider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Day12_C11_WebTables" />
-      <option name="METHOD_NAME" value="pd" />
+      <option name="PACKAGE_NAME" value="com.dataprovider" />
+      <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C16_DataProvider1" />
+      <option name="METHOD_NAME" value="managerInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,17 +69,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_C11_WebTables.printData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14_C17_DataProvider2.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.dataprovider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Day12_C11_WebTables" />
-      <option name="METHOD_NAME" value="printData" />
+      <option name="PACKAGE_NAME" value="com.dataprovider" />
+      <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C17_DataProvider2" />
+      <option name="METHOD_NAME" value="managerLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,17 +87,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_C12_ReadExcel.excelUtilDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14_C18_DataProvider3.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="PATTERN" value="com.dataprovider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
-      <option name="METHOD_NAME" value="excelUtilDemo" />
+      <option name="PACKAGE_NAME" value="com.dataprovider" />
+      <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C18_DataProvider3" />
+      <option name="METHOD_NAME" value="managerLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_C12_ReadExcel.readExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day_14_C15_JSUtilTest.changeColor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="PATTERN" value="com.javascriptexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
-      <option name="METHOD_NAME" value="readExcel" />
+      <option name="PACKAGE_NAME" value="com.javascriptexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.javascriptexecutor.Day_14_C15_JSUtilTest" />
+      <option name="METHOD_NAME" value="changeColor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_C13_WriteExcel.writeExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day_14_C15_JSUtilTest.flash" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="PATTERN" value="com.javascriptexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C13_WriteExcel" />
-      <option name="METHOD_NAME" value="writeExcel" />
+      <option name="PACKAGE_NAME" value="com.javascriptexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.javascriptexecutor.Day_14_C15_JSUtilTest" />
+      <option name="METHOD_NAME" value="flash" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day13_C13_WriteExcel.writeExcel" />
-        <item itemvalue="TestNG.Day12_C12_ReadExcel.excelUtilDemo" />
-        <item itemvalue="TestNG.Day12_C11_WebTables.printData" />
-        <item itemvalue="TestNG.Day12_C11_WebTables.pd" />
-        <item itemvalue="TestNG.Day12_C12_ReadExcel.readExcel" />
+        <item itemvalue="TestNG.Day14_C18_DataProvider3.managerLoginTest" />
+        <item itemvalue="TestNG.Day14_C17_DataProvider2.managerLoginTest" />
+        <item itemvalue="TestNG.Day14_C16_DataProvider1.managerInfo" />
+        <item itemvalue="TestNG.Day_14_C15_JSUtilTest.changeColor" />
+        <item itemvalue="TestNG.Day_14_C15_JSUtilTest.flash" />
       </list>
     </recent_temporary>
   </component>
