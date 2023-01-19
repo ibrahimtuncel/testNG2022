@@ -20,12 +20,12 @@ public class ReservationPage {
     public WebElement price;
     @FindBy(id = "DateStart")
     public WebElement dateStart;
-    @FindBy(xpath = "//*[.=6]")
+    @FindBy(xpath = "//*[.=25]")
     public WebElement startDay;
 
     @FindBy(id="DateEnd")
     public WebElement dateEnd;
-    @FindBy(xpath = "//*[.=10]")
+    @FindBy(xpath = "//*[.=28]")
     public WebElement endDay;
     @FindBy(id = "AdultAmount")
     public WebElement adultAmount;

@@ -51,6 +51,7 @@ public class ReservationRoomTest {
         reservationPage.not.sendKeys(faker.ancient().hero());
         reservationPage.onay.click();
         reservationPage.pay.click();
+        Thread.sleep(1000);
         reservationPage.save.click();
         Thread.sleep(1000);
 
@@ -62,15 +63,10 @@ public class ReservationRoomTest {
         reservationPage.ok.click();
         Thread.sleep(500);
 
-
-
         Driver.closeDriver();
 
 
-
-
     }
-
 
 
 }

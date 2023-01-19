@@ -8,15 +8,22 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ExcelUtil;
 
+import java.util.List;
+import java.util.Map;
+
 public class Day14_C18_DataProvider3 {
 
     ExcelUtil excelUtil;
+    //List<Map<String, String>> data;
     @DataProvider
     public Object [][] getData(){
         String path="./src/test/java/resources/smoketestdata (1).xlsx";
         String sheetName="manager_login_info";
         excelUtil= new ExcelUtil(path,sheetName);
+        //data=excelUtil.getDataList();
+        //System.out.println(data);
         Object[][] managerProfile=excelUtil.getDataArrayWithoutFirstRow();
+        //System.out.println(managerProfile.toString());
 
         return managerProfile;
     }

@@ -42,7 +42,9 @@ public class Day14_C16_DataProvider1 {
                 {"manager12","Manager12!"}
         };
         return managerProfile;
+
     }
+
     @Test (dataProvider = "getData")
     public void  managerInfo(String kullaniciAdi, String sifre){
         System.out.println("kullanici:"+kullaniciAdi+"\nSifre:"+sifre);

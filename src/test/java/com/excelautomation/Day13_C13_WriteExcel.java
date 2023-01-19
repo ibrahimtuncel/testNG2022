@@ -47,6 +47,7 @@ public class Day13_C13_WriteExcel {
         //     4. row 3. cell'de bir cell olustur ve 54000 yaz
         sheet.getRow(3).createCell(2).setCellValue(54000);
         sheet.getRow(5).createCell(2).setCellValue("aaa");
+        sheet.getRow(6).createCell(2).setCellValue("dlt");
         //     workbook kaydet
         FileOutputStream fileOutputStream = new FileOutputStream(path);
         workbook.write(fileOutputStream);

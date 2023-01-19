@@ -30,7 +30,7 @@ public class Day_14_C15_JSUtilTest {
         }
         WebElement haveAQuestion=Driver.getDriver().findElement(By.xpath("//*[.='Have a Questions?']"));
         JSUtils.scrollIntoViewJS(haveAQuestion);
-        //ReusableMethots.waitFor(3);
+        ReusableMethots.waitFor(3);
         Assert.assertEquals(haveAQuestion.getText(),"Have a Questions?");
         Assert.assertTrue(haveAQuestion.isDisplayed());
         Driver.closeDriver();
@@ -90,9 +90,14 @@ public class Day_14_C15_JSUtilTest {
         WebElement checkAvailabilityButton = Driver.getDriver().findElement(By.xpath("//input[@type='submit']"));
         JSUtils.changeColor("red",checkAvailabilityButton);
         Thread.sleep(1000);
+        JSUtils.scrollDownByJS();
+        Thread.sleep(1000);
+        JSUtils.generateAlert("Hello");
+        ReusableMethots.waitFor(2);
     }
     @AfterMethod
     public void After(){
+
         Driver.closeDriver();
     }
 }

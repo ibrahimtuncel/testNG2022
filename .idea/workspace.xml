@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af282715-c94d-4592-9c64-e67ad15f8ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C17_DataProvider2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C18_DataProvider3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javascriptexecutor/Day_14_C15_JSUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C18_DataProvider3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C18_DataProvider3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C13_WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C13_WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javascriptexecutor/Day_14_C15_JSUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javascriptexecutor/Day_14_C15_JSUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/ReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/ReservationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/smoketestdata (1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/smoketestdata (1).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/smokeTest/ReservationRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/smokeTest/ReservationRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\Users\lenovo\eclipse-workspace\testNG2022\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day14_C18_DataProvider3.managerLoginTest">
+  <component name="RunManager" selected="TestNG.Day14_C18_DataProvider3">
     <configuration name="Day14_C16_DataProvider1.managerInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
@@ -69,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day14_C17_DataProvider2.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14_C17_DataProvider2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
@@ -79,15 +81,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dataprovider" />
       <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C17_DataProvider2" />
-      <option name="METHOD_NAME" value="managerLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day14_C18_DataProvider3.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14_C18_DataProvider3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dataprovider" />
       <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C18_DataProvider3" />
-      <option name="METHOD_NAME" value="managerLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day14_C18_DataProvider3.managerLoginTest" />
-        <item itemvalue="TestNG.Day14_C17_DataProvider2.managerLoginTest" />
+        <item itemvalue="TestNG.Day14_C18_DataProvider3" />
+        <item itemvalue="TestNG.Day14_C17_DataProvider2" />
         <item itemvalue="TestNG.Day14_C16_DataProvider1.managerInfo" />
         <item itemvalue="TestNG.Day_14_C15_JSUtilTest.changeColor" />
         <item itemvalue="TestNG.Day_14_C15_JSUtilTest.flash" />
