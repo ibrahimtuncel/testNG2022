@@ -12,7 +12,7 @@ public class Day14_C17_DataProvider2 {
      Manager kullanici bilgileri ile login fonksiyonunu test et
      getData method'unda 2D array donduren bir object olustur
      */
-    @DataProvider
+    @DataProvider (parallel=false)//true olursa paralel test kosar
     public Object [][] getData(){
 
         Object [][] managerProfile= {

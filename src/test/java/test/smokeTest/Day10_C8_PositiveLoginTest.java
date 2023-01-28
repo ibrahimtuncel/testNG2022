@@ -11,7 +11,7 @@ import utilities.Driver;
 public class Day10_C8_PositiveLoginTest {
     @Test
     public void positiveLoginTest() throws InterruptedException {
-        Driver.getDriver().get(ConfigReader.getProperty("app_url"));
+        Driver.getDriver().get(ConfigReader.getProperty("app_url_login"));
         //1. create page objects-MainPage, LoginPage - DONE
         /*2. create test class
         -Create Page Objects

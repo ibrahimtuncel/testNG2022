@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af282715-c94d-4592-9c64-e67ad15f8ef5" name="Changes" comment="" />
+    <list default="true" id="af282715-c94d-4592-9c64-e67ad15f8ef5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/parallel-testing-1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel-testing-2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regressiontest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-methods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/paralleltesting/ManagerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/paralleltesting/SearchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/paralleltesting/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C17_DataProvider2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C17_DataProvider2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day09_C1_TestNGAnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Day09_C1_TestNGAnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day12_C11_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Day12_C11_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day10_C8_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/smokeTest/Day10_C8_PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +61,46 @@
       <recent name="C:\Users\lenovo\eclipse-workspace\testNG2022\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day14_C18_DataProvider3">
-    <configuration name="Day14_C16_DataProvider1.managerInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day14_C17_DataProvider2">
+    <configuration name="C:/Users/lenovo/eclipse-workspace/testNG2022/parallel-testing-1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-testing-1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/lenovo/eclipse-workspace/testNG2022/run_groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/run_groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day12_C11_WebTables.printColumns" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Day12_C11_WebTables" />
+      <option name="METHOD_NAME" value="printColumns" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day14_C16_DataProvider1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +110,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dataprovider" />
       <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C16_DataProvider1" />
-      <option name="METHOD_NAME" value="managerInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -78,66 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day14_C18_DataProvider3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="com.dataprovider.Day14_C18_DataProvider3" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day_14_C15_JSUtilTest.changeColor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javascriptexecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javascriptexecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.javascriptexecutor.Day_14_C15_JSUtilTest" />
-      <option name="METHOD_NAME" value="changeColor" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day_14_C15_JSUtilTest.flash" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javascriptexecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javascriptexecutor" />
-      <option name="MAIN_CLASS_NAME" value="com.javascriptexecutor.Day_14_C15_JSUtilTest" />
-      <option name="METHOD_NAME" value="flash" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day14_C18_DataProvider3" />
         <item itemvalue="TestNG.Day14_C17_DataProvider2" />
-        <item itemvalue="TestNG.Day14_C16_DataProvider1.managerInfo" />
-        <item itemvalue="TestNG.Day_14_C15_JSUtilTest.changeColor" />
-        <item itemvalue="TestNG.Day_14_C15_JSUtilTest.flash" />
+        <item itemvalue="TestNG.Day14_C16_DataProvider1" />
+        <item itemvalue="TestNG.C:/Users/lenovo/eclipse-workspace/testNG2022/parallel-testing-1.xml" />
+        <item itemvalue="TestNG.C:/Users/lenovo/eclipse-workspace/testNG2022/run_groups.xml" />
+        <item itemvalue="TestNG.Day12_C11_WebTables.printColumns" />
       </list>
     </recent_temporary>
   </component>
@@ -157,10 +160,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testNG2022$C__Users_lenovo_eclipse_workspace_testNG2022_run_methods_xml.ic" NAME="$PROJECT_DIR$/run-methods.xml Coverage Results" MODIFIED="1674808323383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

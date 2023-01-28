@@ -18,7 +18,7 @@ public class Day14_C16_DataProvider1 {
 
     //1. 2D object array donduren bir getData method olusturun
     //2. Method'ta @DataProvider annotation kullan
-    @DataProvider
+    @DataProvider (parallel=true)
     public Object [][] getData(){
         //  manager	Manager1!
         //  manager2 Manager2!
@@ -45,7 +45,7 @@ public class Day14_C16_DataProvider1 {
 
     }
 
-    @Test (dataProvider = "getData")
+    @Test (dataProvider = "getData" )
     public void  managerInfo(String kullaniciAdi, String sifre){
         System.out.println("kullanici:"+kullaniciAdi+"\nSifre:"+sifre);
     }

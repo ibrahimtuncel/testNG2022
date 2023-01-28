@@ -61,7 +61,7 @@ public class Day12_C11_WebTables {
         }
     }
 
-    @Test
+    @Test (groups ="test-group-1")
     public void printRows() {
         List<WebElement> tumRows = Driver.getDriver().findElements(By.xpath("//tbody//tr"));
         int satirNumarasi = 1;
@@ -89,7 +89,7 @@ public class Day12_C11_WebTables {
         Driver.closeDriver();
     }
 
-    @Test
+    @Test (groups ="test-group-1")
     public void printColumns() {
         List<WebElement> tumHeader = Driver.getDriver().findElements(By.xpath("//th"));
         //Driver.getDriver().findElements(By.xpath("//table//tbody//tr[1]//td"));

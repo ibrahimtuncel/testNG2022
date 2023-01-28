@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Arcane-Test-Suite">
+    <test name="class-set-1">
+        <classes>
+            <class name="test.Day12_C11_WebTables">
+             <methods>
+                <include name="printRows"></include>
+                <!-- <include name="printColumn"></include>-->
+             </methods>
+            </class>
+            <class name="test.Day10_C7_TestAdressLoginTest">
+                <methods>
+                    <include name="testAdresssLogin"></include>
+                </methods>
+            </class>
+            <class name="test.Day09_C1_TestNGAnotation">
+                <methods>
+                    <include name="test3"></include>
+                   <!-- <exclude name="istenmeyen methot"></exclude>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

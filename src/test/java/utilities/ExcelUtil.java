@@ -1,7 +1,6 @@
 package utilities;
 
 import org.apache.poi.ss.usermodel.*;
-import org.testng.Assert;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -14,36 +13,32 @@ public class ExcelUtil {
     private Workbook workBook;
     private Sheet workSheet;
     private String path;
-
-    public ExcelUtil(String path, String sheetName) {//Bu Constructor excel dosyasini acmak ve erisim saglamak icindir
+    public ExcelUtil(String path, String sheetName) {//Bu constructor excel file acar ve data erisir
         this.path = path;
         try {
-            // Excel file acar
+            // Excel file erisme
             FileInputStream fileInputStream = new FileInputStream(path);
-            //  workbook' erisim saglar
+            // workbook erisme
             workBook = WorkbookFactory.create(fileInputStream);
-            // worksheet'i getirir
+            // worksheet erisme
             workSheet = workBook.getSheet(sheetName);
-            //sheet'in data icerip icermedigini assert eder
-            Assert.assertNotNull(workSheet, "Worksheet: \"" + sheetName + "\" was not found\n");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
-    //Bu excel dosyasindaki data listesini getirir
-    //Bu data type string bir map olan List'tir. Datayi String olarak alir ve String Map olarak dondurur
+    //Bu data listini excel file seklinde alir
     public List<Map<String, String>> getDataList() {
-        // tum columns'lari getirir
+        // tum columns alma
         List<String> columns = getColumnsNames();
         // method will return this
         List<Map<String, String>> data = new ArrayList<>();
         for (int i = 1; i < rowCount(); i++) {
-            // her bir row getirir
+            // herbir row al
             Row row = workSheet.getRow(i);
-            // column ve value kullanarak Row'dan Map olusturur
+            // creating map of the row using the column and value
             // key=column, value=cell
             Map<String, String> rowMap = new HashMap<String, String>();
-            for (Cell cell : row) {
+            for (Cell cell :row) {
                 int columnIndex = cell.getColumnIndex();
                 rowMap.put(columns.get(columnIndex), cell.toString());
             }
@@ -51,15 +46,15 @@ public class ExcelUtil {
         }
         return data;
     }
-    //===============spesifik bir row'da column sayisini getirme=================
+    //===============Getting the number of columns in a specific single row=================
     public int columnCount() {
-        //row 1'de kactane number var getirir
+        //getting how many numbers in row 1
         return workSheet.getRow(0).getLastCellNum();
     }
-    //=============== en son row'daki numberi nasil alirsiniz? Index'ler 0'dan baslar.====================
+    //===============how do you get the last row number?Index start at 0.====================
     public int rowCount() {
-        return workSheet.getLastRowNum() + 1; }// 1 ekleyerek gercek sayiyi getirir
-    //==============row ve column number girilince , data alinir ==========
+        return workSheet.getLastRowNum() + 1; }//adding 1 to get the actual count
+    //==============When you enter row and column number, then you get the data==========
     public String getCellData(int rowNum, int colNum) {
         Cell cell;
         try {
@@ -70,7 +65,7 @@ public class ExcelUtil {
             throw new RuntimeException(e);
         }
     }
-    //============tum datayi 2-dimentional array getirme ve datayi dondurme===
+    //============getting all data into two dimentional array and returning the data===
     public String[][] getDataArray() {
         String[][] data = new String[rowCount()][columnCount()];
         for (int i = 0; i < rowCount(); i++) {
@@ -81,7 +76,7 @@ public class ExcelUtil {
         }
         return data;
     }
-    //==============Ilk row'a gitme ve her column'u birer birer okuma ==================//
+    //==============going to the first row and reading each column one by one==================//
     public List<String> getColumnsNames() {
         List<String> columns = new ArrayList<>();
         for (Cell cell : workSheet.getRow(0)) {
@@ -89,14 +84,14 @@ public class ExcelUtil {
         }
         return columns;
     }
-    //=========row ve column sayisi girilince, value dondurme ===============//
+    //=========When you enter the row and column number, returning the value===============//
     public void setCellData(String value, int rowNum, int colNum) {
         Cell cell;
         Row row;
         try {
             row = workSheet.getRow(rowNum);
             cell = row.getCell(colNum);
-            if (cell == null) {//Eger value yok ise, bir cell olustur.
+            if (cell == null) {//if there is no value, create a cell.
                 cell = row.createCell(colNum);
                 cell.setCellValue(value);
             } else {
@@ -113,8 +108,8 @@ public class ExcelUtil {
         int column = getColumnsNames().indexOf(columnName);
         setCellData(value, row, column);
     }
-    //Bu method 2-boyutlu bir data table dondurur
-    //data provider'dan dolayi bu formata ihtiyac duyariz.
+    //this method will return data table as 2d array
+    //so we need this format because of data provider.
     public String[][] getDataArrayWithoutFirstRow() {
         String[][] data = new String[rowCount()-1][columnCount()];
         for (int i = 1; i < rowCount(); i++) {
